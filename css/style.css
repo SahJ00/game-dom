@@ -1,0 +1,42 @@
+body {
+    background-color: #e7ebeb!important;
+}
+
+.items {
+    background-color: #a5c688;
+}
+
+.bedroom {
+    transition-delay: 1s;
+    transition: all .5s ease-in-out;
+    filter: grayscale(100%);
+}
+
+.bedroom:hover {
+    transition-delay: 1s;
+    transition: all .5s ease-in-out;
+    filter: sepia(60%);
+}
+
+.bedroom:active {
+    transition-delay: 1s;
+    transition: all .5s ease-in-out;
+    filter: grayscale(0%);
+}
+
+.objetivesCompleted {
+  color: #17a2b8;
+  text-decoration:line-through;
+}
+
+.key:hover {
+  cursor: pointer; 
+}
+
+.paper:hover {
+  cursor: pointer;
+}
+
+.pencil:hover {
+  cursor: pointer;
+}
