@@ -40,3 +40,7 @@ body {
 .pencil:hover {
   cursor: pointer;
 }
+
+.light:hover {
+    cursor: pointer;
+  }
